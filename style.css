@@ -8,3 +8,9 @@ body {
 .letras {
   color: white;
 }
+table {
+  whidth: 100%;
+  border-collapse;
+  font-family: arial, sans-serif;
+  background-collor: white;
+}
