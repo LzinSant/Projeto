@@ -5,6 +5,10 @@ img {
 body {
   background-color: purple; align-content: 
 }
+display: felex;
+  flex-direction: column;
+  align-items: center
+  min-height: 100vh;
 .letras {
   color: white;
 }
