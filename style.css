@@ -5,15 +5,6 @@ img {
 body {
   background-color: purple;align-content: 
 }
-.informações { display: flex; gap: 12px; }
-.informações > div {
-  flex: 1;
-  justify-content: column;
-  background-color: white; color: white;
-  padding: 6px; text-align: center;
-  border-radius: 6px;
-}
-.cartão { flex: 2; background: black; }
 .letras {
   color: white;
 }
