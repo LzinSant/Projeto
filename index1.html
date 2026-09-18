@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     TEMPLATE — Página pessoal com CSS Grid
+     Programação Web / Introdução às Tecnologias Web — IFAL
+     COMO USAR:
+     1) Copie ESTE index.html para o seu repositório (não mude a estrutura).
+     2) Escolha UM dos 3 temas de CSS (tema-1-indigo.css, tema-2-escuro.css
+        ou tema-3-editorial.css) e salve-o no seu projeto como  estilo.css
+        (é o nome que este HTML carrega logo abaixo).
+     3) Troque os textos marcados com "TROQUE" pelo seu conteúdo.
+     IMPORTANTE: o LAYOUT é feito com CSS Grid e é o mesmo nos 3 temas.
+     Você escolhe a APARÊNCIA (fonte, cores, bordas), não o layout.
+     ============================================================ -->
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal — Seu Nome</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+    <!-- ====== CABEÇALHO — TROQUE pelo seu nome e sua frase ====== -->
+    <header class="cabecalho">
+      <h1>Luiz Paulo Silva dos Santos</h1>
+      <p>1°ano do ensino medio. cursando Desenvolvimento de Sistemas · IFAL</p>
+      <nav>
+        <a href="#sobre">sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+    <main class="principal">
+      <section id="sobre" class="cartao">
+        <h2>Sobre Mim</h2>
+        <!-- TROQUE por uma breve apresentação sua -->
+        <p>Prazer! me chamo Luiz Paulo e sou um estudante de Desenvolvimento de Sistemas e eu gosto de Animes, Jogos eletrônicos, Mangás e Musicas. Também quero me proficionalizar no meu curso. Conhecendo mais sobre a área.</p>
+      </section>
+
+      <section id="projetos" class="cartao">
+        <h2>Projetos</h2>
+        <!-- Galeria com Grid: cada .projeto é um card; adicione/remova à vontade -->
+        <div class="projetos">
+          <article class="projeto">
+            <h3>Projeto 1</h3>
+            <p>O que é e o que você fez. TROQUE por um projeto seu.</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição curta do projeto.</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 3</h3>
+            <p>Descrição curta do projeto.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====== BARRA LATERAL ====== -->
+    <aside class="lateral">
+      <section class="cartao">
+        <h2>Habilidades</h2>
+        <!-- TROQUE pelas suas habilidades -->
+        <ul class="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Grid</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="contato" class="cartao">
+        <h2>Contato</h2>
+        <!-- TROQUE pelos seus links -->
+        <ul class="contato">
+          <li>✉️ <a href="mailto:lpss1@aluno.ifal.edu.br">lpss1@aluno.ifal.edu.br</a></li>
+          <li>🐙 <a href="https://github.com/LzinSant">github.com/LzinSant</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ====== RODAPÉ — TROQUE o nome ====== -->
+    <footer class="rodape">© 2026 Luiz Paulo Silva dos Santos · feito com HTML + CSS Grid</footer>
+
+  </div>
+</body>
+
+</html>
